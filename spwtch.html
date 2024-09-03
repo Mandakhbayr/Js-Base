@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./stpwtch.css" />
+  </head>
+  <body>
+    <h1>Stopwatch</h1>
+    <div class="box">
+      <div id="display">00:00:00:00</div>
+      <div id="controls">
+        <button id="start" onclick="start()">Start</button>
+        <button id="stop" onclick="stop()">Stop</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="log" onclick="log()">Log</button>
+      </div>
+    </div>
+    <div id="logs"></div>
+  </body>
+  <script src="stpwtch.js"></script>
+</html>
